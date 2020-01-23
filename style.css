@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(84 154 205);
+}
+
+legend {
+  color: rgb(234 234 234);
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+}
+
+::placeholder {
+  color: rgb(63 96 119);
+}
+
+fieldset {
+  border-style: none;
+}
