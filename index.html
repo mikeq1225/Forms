@@ -8,36 +8,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <form action="" method="">
-        <fieldset>
-          <legend>First Name</legend>
-          <input type="text" placeholder="First Name" id="fname" name="fname" />
-        </fieldset>
-        <fieldset>
-          <legend>Last Name</legend>
-          <input type="text" placeholder="Last Name" id="lname" name="lname" />
-        </fieldset>
-        <fieldset>
-          <legend>Email</legend>
-          <input
-            type="email"
-            placeholder="johndoe@punchcode.com"
-            id="email"
-            name="email"
-          />
-        </fieldset>
-        <fieldset>
-          <legend>Country</legend>
-          <select name="country" id="country">
-            <option>Choose a country</option>
-            <option value="United States of America">USA</option>
-            <option value="Canada">Canada</option>
-            <option value="Mexico">Mexico</option>
-            <option value="Brazil">Brazil</option>
-          </select>
-        </fieldset>
-      </form>
-    </section>
+    <form action="" method="">
+      <fieldset>
+        <label for="fname">FIRST NAME</label>
+        <input type="text" placeholder="First Name" id="fname" name="fname" />
+        <label for="lname">LAST NAME</label>
+        <input type="text" placeholder="Last Name" id="lname" name="lname" />
+        <label for="email">EMAIL ADDRESS</label>
+        <input
+          type="email"
+          placeholder="johndoe@punchcode.com"
+          id="email"
+          name="email"
+        />
+        <label for="country">COUNTRY</label>
+        <select name="country" id="country">
+          <option>Choose a country</option>
+          <option value="United States of America">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Brazil">Brazil</option>
+        </select>
+        <label for="biography">BIOGRAPHY</label>
+        <textarea id="biography" name="biography"></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="phone">PHONE NUMBER</label>
+        <input
+          type="tel"
+          placeholder="1-555-967-5309"
+          id="phone"
+          name="phone"
+        />
+        <label for="affiliations">AFFILIATIONS</label>
+        <textarea id="affiliations" name="affiliations"></textarea>
+        <label for="occupation">OCCUPATION</label>
+        <select id="occupation" name="occupation">
+          <option>Choose an occupation</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Nurse">Nurse</option>
+          <option value="Paramedic">Paramedic</option>
+          <option value="Pharmacy Tech">Pharmacy Tech</option>
+        </select>
+        <label for="catName">CAT'S NAME</label>
+        <input type="text" placeholder="Kitty" id="catName" name="catName" />
+        <label for="favGadget">FAVORITE GADGET</label>
+        <input
+          type="text"
+          placeholder="Annoy-a-tron"
+          id="favGadget"
+          name="faveGadget"
+        />
+      </fieldset>
+      <fieldset>
+        <label for="talent">TYPE OF TALENT</label>
+        <select id="talent" name="talent">
+          <option>Choose a talent</option>
+          <option value="fencing">Fencing</option>
+          <option value="nunchucks">Nun-Chucks</option>
+          <option value="lance">Lancing</option>
+          <option value="LARP">Live Action Role Play</option>
+        </select>
+        <label for="favDrink">FAVORITE DRINK</label>
+        <input
+          type="text"
+          placeholder="Green Tea"
+          id="favDrink"
+          name="favDrink"
+        />
+        <label for="power">SPECIAL POWER</label>
+        <input type="text" placeholder="Anti-Gravity" id="power" name="power" />
+        <label for="weapon">WEAPON OF CHOICE</label>
+        <input type="text" placeholder="Lightsaber" id="weapon" name="weapon" />
+        <label for="comments">COMMENTS</label>
+        <textarea id="comments" name="comments"></textarea>
+      </fieldset>
+    </form>
   </body>
 </html>
