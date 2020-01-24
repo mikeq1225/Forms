@@ -55,5 +55,13 @@ input:focus,
 select:focus,
 textarea:focus {
   border: 2px solid rgb(39 96 140);
-  transition: 1s;
+  background-color: rgb(66, 141, 202);
+  transition: 1.5s;
 }
+
+/*input:hover,
+textarea:hover,
+select:hover {
+  background-color: lightblue;
+  transition: 1.5s;
+}*/
